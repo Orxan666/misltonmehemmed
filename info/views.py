@@ -7,7 +7,7 @@ def index(request):
     abouts=About.objects.all()
     services=Service.objects.all()
     clients=Client.objects.all()
-    questions=Question.objects.all()
+    questions=Question2.objects.all()
     portfolio=PortfolioItem.objects.all()
     return render(request, 'index.html',{'homes':homes,'abouts':abouts,'services':services,'clients':clients,'questions':questions,'portfolio':portfolio}) 
 

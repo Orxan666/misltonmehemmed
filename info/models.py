@@ -67,7 +67,9 @@ class Client(models.Model):
         return self.photo.url if self.photo else 'No photo'
 
 
-class Question(models.Model):
+
+
+class Question2(models.Model):
     title = models.TextField()
     description = models.TextField()
 
